@@ -5,8 +5,8 @@ import { Message } from "element-ui";
 
 // 创建一个新的axios实例
 const request = axios.create({
-  baseURL: " https://slwl-geteway.itheima.net/manager/",
-  // baseURL: " https://slwl-geteway-t.itheima.net/manager/",
+  // baseURL: " https://slwl-geteway.itheima.net/manager/",
+  baseURL: " https://slwl-geteway-t.itheima.net/manager/",
   // baseURL: " http://weldon.net.cn:8889/api/private/v1/",
  
   // http://weldon.net.cn:8889/api/private/v1/

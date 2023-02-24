@@ -52,3 +52,26 @@ export const getuserInfoApi = (params) => {
     params
   })
 }
+export const getcarriagesApi = () => {
+  return request({
+    method: 'get',
+    url: '/carriages',
+   
+  })
+}
+export const addcarriagesApi = (data) => {
+  return request({
+    method: 'post',
+    url: '/carriages',
+    data
+   
+  })
+}
+
+export const delcarriagesApi = (id) => {
+  return request({
+    method: 'delete',
+    url: `/carriages/${id}`,
+    
+  })
+}

@@ -12,13 +12,10 @@ children:[{ path: '/branches/organization-manage', component: () => import('@/vi
     { path: '/branches/institutions-jobs-area', component: () => import('@/views/institutions-jobs-area') },
   { path: '/transit/freight-manage', component: () => import('@/views/freight-manage') },
   { path: '/dashboard', component: () => import('@/views/dashboard') },
-  { path: '/transit/car-models', component: () => import('@/views/transit/car-models') },]
- },
-
-  
-  
-  
-]
+  { path: '/transit/car-models', component: () => import('@/views/transit/car-models') },
+  { path: '/transit/vehicle', component: () => import('@/views/transit/vehicle') },
+  { path: '/transit/car-register', component: () => import('@/views/transit/car-register') },]
+ },]
 
 const router = new VueRouter({ 
   routes

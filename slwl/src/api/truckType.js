@@ -48,3 +48,11 @@ export const getTruckInfoApi= () => { //获取车辆类型信息列表
     
   });
 };
+export const addTruck =  (data) => { //添加车辆
+  return request({
+   method:'post',
+    url: `/truck`,
+   data
+    
+  });
+};
